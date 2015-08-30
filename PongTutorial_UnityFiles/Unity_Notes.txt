@@ -1,0 +1,15 @@
+Unity Notes:
+
+*To change the velocity of an object, you must add 'RigidBody' component to it
+
+*Use 'Fixed Rotation: Z Axis' so the 2D object will not tilt randomly
+
+*You always need a 'GameMaster' that persists through all levels, keeps track of scores,
+ level, etc. etc. 
+
+*You can create a 'Physics2D Material' & change the friction & gravity settings - you can apply
+ that material to a box or circle collider by dragging it into the material box..this will
+ modify its behavior when it collides with an object
+
+*Placing 'Static' before the name of a function allows you to call it from anywhere
+ within the scene
